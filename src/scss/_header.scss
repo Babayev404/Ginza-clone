@@ -1,0 +1,133 @@
+
+.header-page {
+    width: 100%;
+    height: 194px;
+    position: relative;
+    z-index: 1;
+
+    /* background-color: blue; */
+    .container {
+        .top-page {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 35px 0 25px 0;
+
+            .icons {
+                display: flex;
+                align-items: center;
+
+                li {
+                    margin-right: 25px;
+
+                    a {
+                        color: #929292;
+                        display: inline-block;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            .logo {
+                width: 107px;
+
+                img {
+                    max-width: 100%;
+                }
+            }
+
+            .cart {
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+
+                .header-search {
+                    margin-left: 50px;
+                    cursor: pointer;
+                }
+
+                .header-cart {
+                    position: relative;
+                    margin-left: 50px;
+
+                    i {
+                        font-size: 22px;
+                    }
+
+                    span {
+                        position: absolute;
+                        right: -6px;
+                        top: -6px;
+                        color: #ee3333;
+                        text-align: center;
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+
+        .menu-page {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .container {
+
+                .main-menu {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    .navLinks {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+
+                        .links {
+                            font-size: 13px;
+                            line-height: 14px;
+                            font-weight: 600;
+                            font-family: "Poppins", sans-serif;
+                            color: #292929;
+                            text-transform: uppercase;
+                            display: block;
+                            padding: 40px 0 40px 0;
+                            margin: 0 37px 0 0;
+                            position: relative;
+
+                            a{
+                                color: #292929;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.banner{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+
+    .banner-img{
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+
+        img{
+            width: 100%;
+            height: 100%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+}
